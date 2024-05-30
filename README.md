@@ -6,7 +6,7 @@ Welcome to the Pong game community!
 ## Pong Game Video
 <p align="center">
   <a href="https://pavitech.wistia.com/medias/gmoozkj9uu" target="_blank">
-    <img src="https://fast.wistia.com/embed/medias/gmoozkj9uu/swatch" style="height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" />
+    <iframe src="https://fast.wistia.net/embed/iframe/gmoozkj9uu?seo=true&videoFoam=true" title="pong game live Video" allow="autoplay; fullscreen" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" msallowfullscreen width="100%" height="100%"></iframe>
   </a>
 </p>
 
