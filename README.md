@@ -32,7 +32,7 @@ To install and run the game, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/Pong-Game.git
+   git clone https://github.com/devpavth/Pong-Game.git
 
 2. Navigate to the project directory:
    ```bash
@@ -53,7 +53,7 @@ Contributions are welcome! To contribute to this project, follow these steps:
 1. **Fork the Repository**: Click on the "Fork" button at the top right corner of this repository to create a copy of the repository in your GitHub account.
 2. **Clone the Forked Repository**: Clone your forked repository to your local machine.
     ```bash
-    git clone https://github.com/yourusername/Pong-Game.git
+    git clone https://github.com/devpavth/Pong-Game.git
     ```
 3. **Create a New Branch**: Create a new branch for your changes.
     ```bash
