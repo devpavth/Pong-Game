@@ -33,3 +33,15 @@ To install and run the game, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/Pong-Game.git
+
+2. Navigate to the project directory:
+   ```bash
+  cd Pong-Game
+
+3. Install the required dependencies:
+  ```bash
+  pip install -r requirements.txt
+
+4. Run the game:
+  ```bash
+  python solution.py
