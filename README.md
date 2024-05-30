@@ -36,12 +36,12 @@ To install and run the game, follow these steps:
 
 2. Navigate to the project directory:
    ```bash
-  cd Pong-Game
+   cd Pong-Game
 
 3. Install the required dependencies:
-  ```bash
-  pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
 4. Run the game:
-  ```bash
-  python solution.py
+   ```bash
+   python solution.py
