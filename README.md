@@ -5,7 +5,7 @@ Welcome to the Pong game community!
 
 ## Pong Game Video
 <p align="center">
-  <a href="https://pavitech.wistia.com/medias/gmoozkj9uu">
+  <a href="https://pavitech.wistia.com/medias/gmoozkj9uu" target="_blank">
     <img src="https://fast.wistia.com/embed/medias/gmoozkj9uu/swatch" alt="Pong Game Video" width="600" />
   </a>
 </p>
