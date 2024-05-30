@@ -15,6 +15,7 @@ PADDLE_WIDTH,PADDLE_HEIGHT=20,100
 BALL_RADIUS=7
 
 SCORE_FONT=pygame.font.SysFont("comicsans",50)
+MESSAGE_FONT = pygame.font.SysFont("comicsans", 40)  # Define MESSAGE_FONT here
 WINNING_SCORE=10
 
 class Paddle:
@@ -124,6 +125,13 @@ def handle_paddle_movement(keys,left_paddle,right_paddle):
     if keys[pygame.K_DOWN] and right_paddle.y+right_paddle.VEL+right_paddle.height<=HEIGHT:
         right_paddle.move(up=False)
 
+def display_welcome_message(win):
+    message_text = MESSAGE_FONT.render("Welcome to the Pong game community", 1, WHITE)
+    win.fill(BLACK)
+    win.blit(message_text, (WIDTH//2 - message_text.get_width()//2, HEIGHT//2 - message_text.get_height()//2))
+    pygame.display.update()
+    pygame.time.delay(3000)  # Display the message for 3 seconds
+
 def main():
     run=True
     clock=pygame.time.Clock()
@@ -135,6 +143,8 @@ def main():
 
     left_score=0
     right_score=0
+
+    display_welcome_message(WIN)
 
     while run:
         clock.tick(FPS)
